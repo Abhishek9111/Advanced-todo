@@ -4,4 +4,6 @@ export const signUpInput = z.object({
   password: z.string(),
 });
 
+console.log("very very temporrary change");
+
 export type SignUpParams = z.infer<typeof signUpInput>;
